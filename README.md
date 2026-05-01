@@ -1,1 +1,1 @@
-"# itol-web-essentials-practicals" 
+Practical activities completed during the HTML and Web Essentials module of the IT Online Learning Coding Course 
