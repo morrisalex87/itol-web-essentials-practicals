@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Profile Page</title>
+		<style>
+			/* Basic Reset */
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			
+			body {
+				font-family: Arial, sans-serif;
+				line-height: 1.6;
+				background-color: #333;
+			}
+
+			.body-container {
+				background-color: #f3f3f3;
+			}
+
+			/* Navigation Styling */
+			.nav-container {
+				background-color: #333;
+				padding: 1rem 0;
+				position: sticky;
+				top: 0;
+			}
+
+			.main-nav ul {
+				list-style: none;
+				display: flex;
+				justify-content: center;
+				gap: 2rem;
+			}
+
+			.main-nav a {
+				color: white;
+				text-decoration: none;
+				padding: 0.5rem 1rem;
+				transition: color 0.3s ease;
+			}
+
+			.main-nav a:hover {
+				color: #ffd700;
+			}
+
+			/* Header Styling */
+			.header {
+				text-align: center;
+				padding: 3rem 1rem;
+				background-color: #fff;
+				margin-bottom: 2rem;
+			}
+
+			.header h1 {
+				color: #333;
+				font-size: 2.5rem;
+				margin-bottom: 1rem;
+			}
+
+			.subtitle {
+				color: #666;
+				font-size: 1.2rem;
+			}
+			
+			.profile-picture {
+				display: flex;
+  				justify-content: center;
+				margin-bottom: 2rem;
+				img {
+					border-radius: 25px;
+					background-color: white;
+					padding: 20px;
+					box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+				}
+			}
+
+			/* Main Content Styling */
+			.main-content {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 0 1rem;
+			}
+
+			.about-section, .websites-section, .contact-section {
+				background-color: white;
+				padding: 2rem;
+				margin-bottom: 2rem;
+				border-radius: 8px;
+				box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+			}
+
+			h2 {
+				color: #333;
+				margin-bottom: 1rem;
+				font-size: 1.8rem;
+			}
+
+			/* Text Formatting */
+			.highlight {
+				background-color: #ffd700;
+				padding: 0.2rem 0.5rem;
+				border-radius: 4px;
+			}
+
+			em {
+				color: #666;
+				font-style: italic;
+			}
+
+			.email {
+				color: #0066cc;
+				font-weight: bold;
+			}
+
+			/* Footer Styling */
+			.footer {
+				text-align: center;
+				padding: 2rem;
+				background-color: #333;
+				color: white;
+				margin-top: 2rem;
+			}
+
+			li {
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+    <body>
+		<!-- Container for body (only used to change background) -->
+		<div class="body-container">
+			<!-- Navigation Section -->
+			<div class="nav-container">
+				<nav class="main-nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#links">Links</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Header Section -->
+			<div class="header" id="home">
+				<h1>Welcome to My Website</h1>
+				<p class="subtitle">Learning <em>HTML</em> and <em>CSS</em></p>
+			</div>
+
+			<!-- Profile Picture Section -->
+			<div class="profile-picture">
+				<img src="https://avatars.akamai.steamstatic.com/6a5ceae8390f3c1332700b6e2896edf00104ffcf_full.jpg" alt="Profile picture">
+			</div>
+
+			<!-- Main Content Section -->
+			<div class="main-content">
+				<div class="about-section" id="about">
+					<h2>About Me</h2>
+					<p>Hello! I'm learning web development. This is my first webpage where I'm practicing HTML and CSS.</p>
+				</div>
+				<div class="websites-section" id="links">
+					<h2>My Links</h2>
+					<p>Other places you can find out more about me:</p>
+					<ul>
+						<li><a href="https://github.com/morrisalex87" target="_blank">GitHub</a></li>
+						<li><a href="https://www.linkedin.com/in/alexander-morris-9637a0306/" target="_blank">LinkedIn</a></li>
+					</ul>
+				</div>
+				<div class="contact-section" id="contact">
+					<h2>Contact Me</h2>
+					<p>Get in touch: <span class="email">morrisalex84@gmail.com</span></p>
+				</div>
+			</div>
+
+			<!-- Footer Section -->
+			<div class="footer">
+				<p>&copy; Alex Morris 2026</p>
+			</div>
+		</div>
+	</body
+</html>
